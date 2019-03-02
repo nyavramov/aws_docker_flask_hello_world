@@ -1,4 +1,4 @@
-## Creating a Hello World Flask App in Docker hosted on AWS EC2 Instance in CentOS 7
+## Creating a Hello World Flask app in Docker hosted on AWS EC2 instance In CentOS 7
 
 ### Motivation 
 Setting up Docker with AWS seems like a useful thing to know how to do. Therefore, these are some notes detailing the steps I took to set up a very simple "Hello, World" Flask App running in Docker and hosted on an Amazon EC2 CentOS 7 instance. I can refer back to these notes later if I need to set this up again.
