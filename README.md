@@ -26,8 +26,8 @@ Setting up Docker with AWS seems like a useful thing to know how to do. Therefor
 
 ### Part 1: Setting up AWS 
 * Created a new AWS account
-* Created a new user. 
-  * In AWS console, go to Users (on left nav panel) → Add used → type Administrator
+* Created a new user 
+  * In AWS console, go to Users (on left nav panel) → Add user → type Administrator
 * Set Permissions for group
   * Create a group to set the permissions policies of that group
   * Name group Administrators → Select AdministratorAccess
