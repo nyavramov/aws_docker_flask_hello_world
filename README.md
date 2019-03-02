@@ -3,6 +3,13 @@
 ### Motivation 
 Setting up Docker with AWS seems like a useful thing to know how to do. Therefore, these are some notes detailing the steps I took to set up a very simple "Hello, World" Flask App running in Docker and hosted on an Amazon EC2 CentOS 7 instance. I can refer back to these notes later if I need to set this up again.
 
+### Helpful Links
+
+* [AWS Concepts guide](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html)
+* [Getting started with AWS](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/get-set-up-for-amazon-ec2.html)
+* [AWS support center for account number](https://console.aws.amazon.com/support/home?region=us-east-2)
+* [Docker installation on CentOS](https://docs.docker.com/install/linux/docker-ce/centos/)
+
 ### General EC2 Terminology & Notes
 * EC2 Stands for “Elastic Compute Cloud”
 * Provides scalable computing capacity
