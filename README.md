@@ -64,8 +64,8 @@ Setting up Docker with AWS seems like a useful thing to know how to do. Therefor
   * Install git: `sudo yum install git`
   * Set up github keys: 
     * Generate the key: `ssh-keygen -t rsa -b 4096 -C "EMAIL_NAME@SOME_EMAIL_DOMAIN.COM"`
-    * Start ssh agent in background: eval "$(ssh-agent -s)"
-    * Add password to the ssh agent: ssh-add ~/.ssh/id_rsa
+    * Start ssh agent in background: `eval "$(ssh-agent -s)"`
+    * Add password to the ssh agent: `ssh-add ~/.ssh/id_rsa`
     * Add private key to github account
       * `cat ~/.ssh/id_rsa.pub` → Copy this and go to [github keys settings](https://github.com/settings/keys) and paste it there
 * Install software collections:`sudo yum install centos-release-scl`
