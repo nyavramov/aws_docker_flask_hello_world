@@ -1,8 +1,16 @@
-version: '2.2'      # Version number correspondes to Docker Engine release. 2.2 supports 1.13.0+
-services:           # Different parts of the app, such as storing data in db, transcoding video, front end 
-  web:              # Serving the front end
-    build: .        # Points to the Dockerfile. The "." specifies that the Dockerfile is in the same directory as docker-compose.yml
-    ports:          
-     - "80:80"      # Map Host Port : Container Port
-    restart: always # Defaults to no, but "always" specifies that we always restart the container & all processes associated with it
+# Version number correspondes to Docker Engine release. 2.2 supports 1.13.0+
+version: '2.2'
 
+# Different parts of the app, such as storing data in db, transcoding video, front end 
+services:
+  # Serving the front end   
+  web:  
+    # Points to the Dockerfile. The "." specifies that the Dockerfile is in the same directory as docker-compose.yml            
+    build: .   
+
+    # Map Host Port : Container Port     
+    ports:          
+     - "80:80"  
+     
+     # Defaults to no, but "always" specifies that we always restart the container & all processes associated with it
+    restart: always
