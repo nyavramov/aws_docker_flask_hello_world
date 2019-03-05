@@ -81,6 +81,9 @@ Setting up Docker with AWS seems like a useful thing to know how to do. Therefor
 * Finally, we can use `docker-compose up -d --build` to run the docker image in detached mode
 * If everything went well, we can visit the AWS Console → Instances → Select the instance → IPv4 Public IP → Copy that IP into the address bar of your browser to view the hello world message
 
+## Credit
+Big thanks to Brad Traversy, who provided the tutorial for the Vue.js app in the 'extras' branch of this repo. I decided to try to make Vue and flask play nicely together, and Brad's excellent tutorial on building a simple to-do app was a great starting point. See the tutorial at: https://www.youtube.com/watch?v=Wy9q22isx3U
+
 ### Troubleshooting
 * `ERROR: Couldn't connect to Docker daemon at http+docker://localhost - is it running?`
   * Solved this error by confirming that docker was running with `sudo systemctl status docker` and then restarting my AMI.
